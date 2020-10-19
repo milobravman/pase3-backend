@@ -13,10 +13,12 @@ Part.destroy_all
 
 monsters = [{name: "Bob the destroyer"}, {name: "tina"}, {name: "deathBreater"}]
 
-
+monsterObj_ary = []
 
 monsters.each do |monster|
     temp_monster = Monster.create(monster)
+    monsterObj_ary << temp_monster
+    puts (monsterObj_ary)
 end
 
 parts = [
@@ -26,7 +28,7 @@ parts = [
         attack_power: 0,
         health: 500,
         image: "https://encrypted-tbn0.gstatic.com/images?",
-        monster_id: mon
+        monster_id: monsterObj_ary[0].id
         
     },
     {
@@ -35,7 +37,7 @@ parts = [
         attack_power: 60,
         health: 130,
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRGMi1omMMm97vowOO5eA4yUCG9djoowG68Fw&usqp=CAU",
-        monster_id: 25
+        monster_id: monsterObj_ary[0].id
     },
     {
         name: "walking-sticks",
@@ -43,7 +45,7 @@ parts = [
         attack_power: 20,
         health: 75,
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTm3cI1BZW2L3w_DWUPrcbqSCUd18ZD2FC6NQ&usqp=CAU",
-        monster_id: 26
+        monster_id: monsterObj_ary[0].id
     },
     {
         name: "knife-arm",
@@ -51,7 +53,7 @@ parts = [
         attack_power: 70,
         health: 30,
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTB1vY1Oc2G_QTh5qjGC8lsqC4nNtCe4s4e9Q&usqp=CAU",
-        monster_id: 27
+        monster_id: monsterObj_ary[0].id
     },
     {
         name: "sheid-arm",
@@ -59,7 +61,7 @@ parts = [
         attack_power: 20,
         health: 175,
         image: "https://png.pngtree.com/element_origin_min_pic/17/09/02/edd30932d1c6075b4c0e302476b03e13.jpg",
-        monster_id: 28
+        monster_id: monsterObj_ary[0].id
     }
 ]
 
