@@ -27,7 +27,7 @@ parts = [
         part_type: "chest",
         attack_power: 0,
         health: 500,
-        image: "https://encrypted-tbn0.gstatic.com/images?",
+        image: "https://images-na.ssl-images-amazon.com/images/I/61i78w4KmnL._AC_SL1200_.jpg",
         monster_id: monsterObj_ary[0].id
         
     },
@@ -49,7 +49,7 @@ parts = [
     },
     {
         name: "knife-arm",
-        part_type: "arm",
+        part_type: "Larm",
         attack_power: 70,
         health: 30,
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTB1vY1Oc2G_QTh5qjGC8lsqC4nNtCe4s4e9Q&usqp=CAU",
@@ -57,12 +57,29 @@ parts = [
     },
     {
         name: "sheid-arm",
-        part_type: "arm",
+        part_type: "Rarm",
         attack_power: 20,
         health: 175,
         image: "https://png.pngtree.com/element_origin_min_pic/17/09/02/edd30932d1c6075b4c0e302476b03e13.jpg",
         monster_id: monsterObj_ary[0].id
+    },
+    {
+        name: "goblin-head",
+        part_type: "head",
+        attack_power: 20,
+        health: 175,
+        image: "https://www.pinclipart.com/picdir/big/42-424231_monster-head-png-clipart.png",
+        monster_id: monsterObj_ary[1].id
+    },
+    {
+        name: "goblin-head",
+        part_type: "head",
+        attack_power: 20,
+        health: 175,
+        image: "https://pixy.org/src/420/thumbs350/4209771.jpg",
+        monster_id: monsterObj_ary[2].id
     }
+    
 ]
 
 
