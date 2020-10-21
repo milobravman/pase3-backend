@@ -6,7 +6,13 @@ class MonstersController < ApplicationController
 
     def create
         monster = Monster.create(user_params)
-        byebug
+        render json: monster
+    end
+
+
+    def destroy
+        monster = Monster.find(params[:id])
+        monster.destroy
     end
 
     private 
