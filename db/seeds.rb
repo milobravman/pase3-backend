@@ -39,30 +39,30 @@ parts = [
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRGMi1omMMm97vowOO5eA4yUCG9djoowG68Fw&usqp=CAU",
         monster_id: monsterObj_ary[0].id
     },
-    # {
-    #     name: "walking-sticks",
-    #     part_type: "legs",
-    #     attack_power: 20,
-    #     health: 75,
-    #     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTm3cI1BZW2L3w_DWUPrcbqSCUd18ZD2FC6NQ&usqp=CAU",
-    #     monster_id: monsterObj_ary[0].id
-    # },
-    # {
-    #     name: "knife-arm",
-    #     part_type: "Larm",
-    #     attack_power: 70,
-    #     health: 30,
-    #     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTB1vY1Oc2G_QTh5qjGC8lsqC4nNtCe4s4e9Q&usqp=CAU",
-    #     monster_id: monsterObj_ary[0].id
-    # },
-    # {
-    #     name: "sheid-arm",
-    #     part_type: "Rarm",
-    #     attack_power: 20,
-    #     health: 175,
-    #     image: "https://png.pngtree.com/element_origin_min_pic/17/09/02/edd30932d1c6075b4c0e302476b03e13.jpg",
-    #     monster_id: monsterObj_ary[0].id
-    # },
+    {
+        name: "walking-sticks",
+        part_type: "legs",
+        attack_power: 20,
+        health: 75,
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTm3cI1BZW2L3w_DWUPrcbqSCUd18ZD2FC6NQ&usqp=CAU",
+        monster_id: monsterObj_ary[0].id
+    },
+    {
+        name: "knife-arm",
+        part_type: "Larm",
+        attack_power: 70,
+        health: 30,
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTB1vY1Oc2G_QTh5qjGC8lsqC4nNtCe4s4e9Q&usqp=CAU",
+        monster_id: monsterObj_ary[0].id
+    },
+    {
+        name: "sheid-arm",
+        part_type: "Rarm",
+        attack_power: 20,
+        health: 175,
+        image: "https://png.pngtree.com/element_origin_min_pic/17/09/02/edd30932d1c6075b4c0e302476b03e13.jpg",
+        monster_id: monsterObj_ary[0].id
+    },
     {
         name: "goblin-head",
         part_type: "head",
