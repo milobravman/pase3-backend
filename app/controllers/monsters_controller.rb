@@ -15,9 +15,16 @@ class MonstersController < ApplicationController
         monster.destroy
     end
 
+    def update
+        #byebug
+        monster = Monster.find(user_params[:id])
+        monster.update(name: params[:name])
+        
+    end
+
     private 
 
-    def user_params
-        params.require(:monster).permit(:name)
+    def user_params()
+        params.require(:monster).permit(:id, :name)
     end
 end
