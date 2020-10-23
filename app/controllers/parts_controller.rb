@@ -11,10 +11,10 @@ class PartsController < ApplicationController
     end
 
 
-    # def destroy
-    #     part = Part.find(params[:id])
-    #     part.destroy
-    # end
+    def destroy
+        part = Part.find(params[:id])
+        part.destroy
+    end
 
     private 
 
